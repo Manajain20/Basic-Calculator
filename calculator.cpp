@@ -2,7 +2,7 @@
 #include <limits>
 using namespace std;
  
-// Function to display menu
+// Fn to display menu
 void showMenu() {
     cout << "       BASIC CALCULATOR       " << endl;
     cout << " 1. Addition       (+)" << endl;
@@ -14,7 +14,7 @@ void showMenu() {
     cout << " Enter your choice: ";
 }
  
-// Function to get a valid number from user
+// Fn to get a valid number from user
 double getNumber(string prompt) {
     double num;
     while (true) {
@@ -30,7 +30,7 @@ double getNumber(string prompt) {
     }
 }
  
-// Function to get a valid integer choice
+// Fn to get a valid integer choice
 int getChoice() {
     int choice;
     while (true) {
@@ -45,16 +45,16 @@ int getChoice() {
     }
 }
  
-// Addition
+// sum
 double add(double a, double b) { return a + b; }
  
-// Subtraction
+// diff
 double subtract(double a, double b) { return a - b; }
  
-// Multiplication
+// product
 double multiply(double a, double b) { return a * b; }
  
-// Division with zero check
+// quotient (invalid if divided by 0)
 void divide(double a, double b) {
     if (b == 0) {
         cout << " Error: Division by zero is not allowed!" << endl;
