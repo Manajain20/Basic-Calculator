@@ -32,14 +32,14 @@ cd Basic-Calculator
 
 **2. Compile the code**
 ```bash
-g++ -o Calculator Calculator.cpp
+g++ -o calculator calculator.cpp
 ```
 
 **3. Run the program**
 ```bash
-./Calculator
+./calculator
 ```
-> On Windows use: `Calculator` instead of `./Calculator`
+> On Windows use: `Calculator` instead of `./calculator`
 
 ---
 
@@ -81,7 +81,7 @@ g++ -o Calculator Calculator.cpp
 ```
 Basic-Calculator/
 │
-└── Calculator.cpp    # Main source file
+└── calculator.cpp    # Main source file
 ```
 
 ---
